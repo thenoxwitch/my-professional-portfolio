@@ -83,6 +83,10 @@ h2 {
   padding: 15px 30px;
 }
 
+.back-homepage {
+  text-align: center;
+}
+
 .project-name-1 {
   font-size: 35px;
   font-family: var(--heading-font-family);
