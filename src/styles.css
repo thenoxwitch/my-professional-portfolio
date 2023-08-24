@@ -12,9 +12,11 @@ body {
   background: linear-gradient(
     to top,
     #fce9f1 5%,
-    rgb(241, 212, 229) 25%,
-    rgb(115, 187, 201) 160%
+    rgb(232, 210, 248, 0.5) 200%,
+    rgb(241, 212, 229) 50%
   );
+  scroll-behavior: smooth;
+  scrollbar-track-color: #f1d4e5;
 }
 
 h1 {
@@ -40,8 +42,21 @@ h2 {
   background: rgb(232, 210, 248, 0.5);
   text-align: center;
   padding: 50px 2px;
+  max-width: 65%;
+  margin: auto;
+  display: block;
   border-radius: 19px;
   mix-blend-mode: multiply, difference, lighten;
+}
+
+.avatar {
+  width: 400px;
+  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+}
+
+.avatar:hover {
+  filter: none;
+  cursor: auto;
 }
 
 .hero p {
@@ -52,9 +67,12 @@ h2 {
 
 .content h1 {
   font-size: 28px;
-  line-height: 5px;
+  line-height: 40px;
 }
 
+.heading-content {
+  padding: 120px 60px;
+}
 .content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -67,6 +85,7 @@ h2 {
   border-radius: 20px;
   background-blend-mode: multiply, diference, lighten;
   margin-bottom: 500px;
+  max-width: 65%;
 }
 
 .content h3 {
@@ -81,15 +100,37 @@ h2 {
   font-size: 14px;
 }
 
+.skills-container {
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.skills-text {
+  font-family: var(--heading-font-family);
+  font-size: large;
+}
+
 .content {
   margin: 30px;
+}
+
+.skills-icon {
+  font-size: 50px;
+  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  border-radius: 12px;
+}
+
+.contact-button {
+  padding-top: 40px;
 }
 
 .scroll {
   overflow: scroll;
   height: 500px;
   box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
-  scrollbar-color: var(--branding-color);
+
   border-radius: 10px;
   scroll-behavior: smooth;
 }
@@ -142,6 +183,11 @@ nav li.active a {
 
 .atenas-img:hover {
   filter: grayscale();
+}
+
+.logo-2 {
+  width: 200px;
+  padding-bottom: 30px;
 }
 
 .btn-branding {
@@ -206,12 +252,14 @@ img:hover {
 
   .hero {
     padding: 40px 20px;
+    max-width: 100%;
   }
 
   .content-container {
     text-align: center;
     padding: 0;
     margin-bottom: auto;
+    max-width: 100%;
   }
 
   .contact-container {
@@ -225,6 +273,14 @@ img:hover {
 
   .atenas-img:hover {
     filter: none;
+  }
+
+  .atenas-img {
+    width: 250px;
+  }
+
+  .skills-icon {
+    font-size: 20px;
   }
 
   nav a {
@@ -241,5 +297,9 @@ img:hover {
 
   .logo {
     max-height: 40px;
+  }
+
+  .avatar {
+    width: 150px;
   }
 }
