@@ -59,6 +59,12 @@ h2 {
   cursor: auto;
 }
 
+.footer-text {
+  font-family: var(--heading-font-family);
+  text-align: center;
+  font-size: 50px;
+}
+
 .hero p {
   font-weight: bold;
   font-size: medium;
@@ -84,7 +90,7 @@ h2 {
   text-align: center;
   border-radius: 20px;
   background-blend-mode: multiply, diference, lighten;
-  margin-bottom: 500px;
+  margin-bottom: 10px;
   max-width: 65%;
 }
 
@@ -222,8 +228,30 @@ nav li.active a {
   padding: 15px 30px;
 }
 
+.footer-icons {
+  font-size: 45px;
+
+  margin: auto;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 0;
+}
+
+.footer-end {
+  padding-top: 50px;
+  text-align: center;
+}
+
 .project-description {
   padding: 120px 60px;
+}
+
+a {
+  color: var(--branding-color);
+  font-weight: 700;
 }
 
 img {
@@ -232,7 +260,7 @@ img {
 
 img:hover {
   filter: grayscale();
-  cursor: pointer;
+  cursor: auto;
 }
 
 @media (max-width: 900px) {
@@ -263,7 +291,7 @@ img:hover {
   }
 
   .contact-container {
-    margin-bottom: 600px;
+    margin-bottom: 20px;
   }
 
   .content {
@@ -301,5 +329,14 @@ img:hover {
 
   .avatar {
     width: 150px;
+  }
+
+  .footer-text {
+    font-size: 25px;
+  }
+
+  .footer-end {
+    font-size: 12px;
+    padding-top: 0;
   }
 }
