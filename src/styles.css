@@ -230,7 +230,7 @@ nav li.active a {
 
 .footer-icons {
   font-size: 45px;
-
+  padding-top: 50px;
   margin: auto;
   display: block;
 }
