@@ -1,13 +1,20 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --terciary-color: #272142;
+  --branding-color: #73bbc9;
+  --secondary-color: #f1d4e5;
+  --terciary-color: #080202;
+  --background-color: rgb(232, 210, 248, 0.6);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  background: linear-gradient(
+    to top,
+    #fce9f1 5%,
+    rgb(241, 212, 229) 25%,
+    rgb(115, 187, 201) 160%
+  );
 }
 
 h1 {
@@ -30,9 +37,11 @@ h2 {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: rgb(232, 210, 248, 0.5);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 2px;
+  border-radius: 19px;
+  mix-blend-mode: multiply, difference, lighten;
 }
 
 .hero p {
@@ -42,8 +51,8 @@ h2 {
 }
 
 .content h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 28px;
+  line-height: 5px;
 }
 
 .content-container h2 {
@@ -52,7 +61,12 @@ h2 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
+  background-color: rgb(232, 210, 248, 0.5);
+  text-align: center;
+  border-radius: 20px;
+  background-blend-mode: multiply, diference, lighten;
+  margin-bottom: 500px;
 }
 
 .content h3 {
@@ -73,11 +87,47 @@ h2 {
 
 .scroll {
   overflow: scroll;
-  height: 350px;
+  height: 500px;
+  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  scrollbar-color: var(--branding-color);
+  border-radius: 10px;
+  scroll-behavior: smooth;
 }
 
 .photo {
   box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+}
+
+.logo {
+  max-height: 100px;
+}
+
+nav {
+  padding: 20px, 12px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 .photo:hover {
@@ -134,6 +184,11 @@ img {
   border-radius: 12px;
 }
 
+img:hover {
+  filter: grayscale();
+  cursor: pointer;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -156,6 +211,11 @@ img {
   .content-container {
     text-align: center;
     padding: 0;
+    margin-bottom: auto;
+  }
+
+  .contact-container {
+    margin-bottom: 600px;
   }
 
   .content {
@@ -165,5 +225,21 @@ img {
 
   .atenas-img:hover {
     filter: none;
+  }
+
+  nav a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #272142;
+    font-weight: bold;
+    transition: all 100ms ease-in-out;
+  }
+
+  nav a:hover {
+    color: var(--branding-color);
+  }
+
+  .logo {
+    max-height: 40px;
   }
 }
