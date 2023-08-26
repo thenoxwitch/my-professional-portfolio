@@ -134,9 +134,12 @@ h2 {
 
 .scroll {
   overflow: scroll;
-  height: 500px;
-  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
 
+  height: 500px;
+  box-shadow: 12px 12px 20px rgba(115, 187, 201, 0.6);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgba(115, 187, 201, 0.3);
   border-radius: 10px;
   scroll-behavior: smooth;
 }
