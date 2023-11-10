@@ -42,11 +42,15 @@ h2 {
   background: rgb(232, 210, 248, 0.5);
   text-align: center;
   padding: 50px 2px;
+ 
   max-width: 65%;
   margin: auto;
   display: block;
-  border-radius: 19px;
+  border-radius: 8px;
   mix-blend-mode: multiply, difference, lighten;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
+    
+   
 }
 
 .avatar {
@@ -78,6 +82,7 @@ h2 {
 
 .heading-content {
   padding: 120px 60px;
+  
 }
 .content-container h2 {
   font-size: 18px;
@@ -86,7 +91,8 @@ h2 {
 
 .content-container {
   padding: 80px 20px;
-  background-color: rgb(232, 210, 248, 0.5);
+  background-color: rgb(232, 210, 248, 0.4);
+  box-shadow: 0px 0px 20px 3px rgba(184, 164, 201, 0.616);
   text-align: center;
   border-radius: 20px;
   background-blend-mode: multiply, diference, lighten;
@@ -152,6 +158,8 @@ h2 {
   max-height: 100px;
 }
 
+
+
 nav {
   padding: 20px, 12px;
 }
@@ -187,7 +195,7 @@ nav li.active a {
 
 .atenas-img {
   width: 100%;
-  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
   position: relative;
   top: 150px;
 
@@ -205,7 +213,7 @@ nav li.active a {
 .box-scroll {
   height: 200px;
   border-radius: 6px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(165, 164, 164, 0.2);
 }
 .btn-branding {
   background: var(--branding-color);
@@ -255,6 +263,8 @@ nav li.active a {
   padding-bottom: 50px;
   text-align: center;
 }
+
+
 
 .project-description {
   padding: 120px 60px;
