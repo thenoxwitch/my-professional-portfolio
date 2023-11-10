@@ -4,7 +4,7 @@
   --terciary-color: #080202;
   --background-color: rgb(232, 210, 248, 0.6);
   --heading-font-family: "VT323", monospace;
-  --default-font-family: "DotGothic16", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -136,10 +136,10 @@ h2 {
   overflow: scroll;
 
   height: 500px;
-  box-shadow: 12px 12px 20px rgba(115, 187, 201, 0.6);
+  box-shadow: 5px 5px 10px rgba(89, 91, 92, 0.6);
   border-style: solid;
   border-width: 2px;
-  border-color: rgba(115, 187, 201, 0.3);
+  border-color: rgba(170, 179, 180, 0.3);
   border-radius: 10px;
   scroll-behavior: smooth;
 }
@@ -186,8 +186,11 @@ nav li.active a {
 }
 
 .atenas-img {
-  width: 550px;
+  width: 100%;
   box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  position: relative;
+  top: 150px;
+
 }
 
 .atenas-img:hover {
@@ -199,6 +202,11 @@ nav li.active a {
   padding-bottom: 30px;
 }
 
+.box-scroll {
+  height: 200px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.2);
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -252,6 +260,12 @@ nav li.active a {
   padding: 120px 60px;
 }
 
+.project-button {
+ margin-bottom: 10px;
+}
+.certifications-button {
+  margin-bottom: 10px;
+}
 a {
   color: var(--branding-color);
   font-weight: 700;
