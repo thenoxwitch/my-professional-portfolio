@@ -42,15 +42,13 @@ h2 {
   background: rgb(232, 210, 248, 0.5);
   text-align: center;
   padding: 50px 2px;
- 
+
   max-width: 65%;
   margin: auto;
   display: block;
   border-radius: 8px;
   mix-blend-mode: multiply, difference, lighten;
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
-    
-   
 }
 
 .avatar {
@@ -82,7 +80,6 @@ h2 {
 
 .heading-content {
   padding: 120px 60px;
-  
 }
 .content-container h2 {
   font-size: 18px;
@@ -158,8 +155,6 @@ h2 {
   max-height: 100px;
 }
 
-
-
 nav {
   padding: 20px, 12px;
 }
@@ -197,8 +192,7 @@ nav li.active a {
   width: 100%;
   box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
   position: relative;
-  top: 150px;
-
+  top: 45px;
 }
 
 .atenas-img:hover {
@@ -264,14 +258,12 @@ nav li.active a {
   text-align: center;
 }
 
-
-
 .project-description {
   padding: 120px 60px;
 }
 
 .project-button {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .certifications-button {
   margin-bottom: 10px;
