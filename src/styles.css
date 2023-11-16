@@ -155,6 +155,18 @@ h2 {
   max-height: 100px;
 }
 
+.cert-img {
+ 
+  margin: 6px;
+}
+
+.content-certification {
+ margin:0 auto;
+ display: block;
+}
+
+
+
 nav {
   padding: 20px, 12px;
 }
@@ -193,6 +205,7 @@ nav li.active a {
   box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
   position: relative;
   top: 45px;
+  border-radius: 50%;
 }
 
 .atenas-img:hover {
@@ -300,6 +313,7 @@ img:hover {
   .hero {
     padding: 40px 20px;
     max-width: 100%;
+   
   }
 
   .content-container {
@@ -307,6 +321,11 @@ img:hover {
     padding: 0;
     margin-bottom: auto;
     max-width: 100%;
+  
+  }
+
+  .heading-content {
+    margin-top: -100px;
   }
 
   .contact-container {
@@ -315,7 +334,7 @@ img:hover {
 
   .content {
     text-align: center;
-    padding: 0;
+    padding: 0px;
   }
 
   .atenas-img:hover {
@@ -324,6 +343,9 @@ img:hover {
 
   .atenas-img {
     width: 250px;
+    position: relative;
+    top: -30px;
+    border-radius: 50%;
   }
 
   .skills-icon {
@@ -337,6 +359,8 @@ img:hover {
     font-weight: bold;
     transition: all 100ms ease-in-out;
   }
+  
+  
 
   nav a:hover {
     color: var(--branding-color);
