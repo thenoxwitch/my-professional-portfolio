@@ -199,6 +199,7 @@ nav li.active a {
 .photo:hover {
   filter: none;
   cursor: pointer;
+  transition: all ease-in-out 400ms;
 }
 
 .atenas-img {
@@ -211,6 +212,7 @@ nav li.active a {
 
 .atenas-img:hover {
   filter: grayscale();
+  transition: all ease-in-out 400ms;
 }
 
 .logo-2 {
@@ -232,6 +234,7 @@ nav li.active a {
   font-size: 12px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all ease-in-out 400ms;
 }
 
 .back-homepage {
@@ -278,9 +281,11 @@ nav li.active a {
 
 .project-button {
   margin-bottom: 10px;
+  transition: all ease-in-out 400ms;
 }
 .certifications-button {
   margin-bottom: 10px;
+  transition: all ease-in-out 400ms;
 }
 a {
   color: var(--branding-color);
@@ -295,6 +300,7 @@ img {
 img:hover {
   filter: none;
   cursor: auto;
+  transition: all ease-in-out 400ms;
 }
 
 @media (max-width: 900px) {
