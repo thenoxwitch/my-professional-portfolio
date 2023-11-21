@@ -148,7 +148,7 @@ h2 {
 }
 
 .photo {
-  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  box-shadow: 5px 5px 10px rgba(89, 91, 92, 0.6);
   filter: grayscale();
 }
 
