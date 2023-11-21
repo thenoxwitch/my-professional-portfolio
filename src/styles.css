@@ -186,7 +186,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #3d3d3d;
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
@@ -357,7 +357,7 @@ img:hover {
   nav a {
     font-size: 10px;
     text-decoration: none;
-    color: #272142;
+    color: #39383d;
     font-weight: bold;
     transition: all 100ms ease-in-out;
   }
