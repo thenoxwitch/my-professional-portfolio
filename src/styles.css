@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #88755f;
+  --branding-color: #35271d;
   --secondary-color: #f1d4e5;
   --terciary-color: #080202;
   --background-color: #171614;
@@ -12,7 +12,7 @@ body {
   background: 
     
    
-   rgb(23, 22, 20,0.2);
+   rgba(53, 53, 53, 0.2);
    
   
   scroll-behavior: smooth;
@@ -39,7 +39,7 @@ h2 {
 }
 
 .hero {
-  background: rgb(197, 197, 192);
+  background: rgb(219, 219, 218);
   text-align: center;
   padding: 50px 2px;
 
