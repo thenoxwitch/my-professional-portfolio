@@ -1,27 +1,27 @@
 :root {
-  --branding-color: #73bbc9;
+  --branding-color: #88755f;
   --secondary-color: #f1d4e5;
   --terciary-color: #080202;
-  --background-color: rgb(232, 210, 248, 0.6);
-  --heading-font-family: "VT323", monospace;
+  --background-color: #171614;
+  --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
-  background: linear-gradient(
-    to top,
-    #fce9f1 5%,
-    rgb(232, 210, 248, 0.5) 200%,
-    rgb(241, 212, 229) 50%
-  );
+  background: 
+    
+   
+   rgb(23, 22, 20,0.2);
+   
+  
   scroll-behavior: smooth;
   scrollbar-track-color: #f1d4e5;
 }
 
 h1 {
   color: rgb(0, 0, 0);
-  font-size: 76px;
+  font-size: 35px;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -39,7 +39,7 @@ h2 {
 }
 
 .hero {
-  background: rgb(232, 210, 248, 0.5);
+  background: rgb(197, 197, 192);
   text-align: center;
   padding: 50px 2px;
 
@@ -53,7 +53,7 @@ h2 {
 
 .avatar {
   width: 400px;
-  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
 }
 
 .avatar:hover {
@@ -88,8 +88,8 @@ h2 {
 
 .content-container {
   padding: 80px 20px;
-  background-color: rgb(232, 210, 248, 0.4);
-  box-shadow: 0px 0px 20px 3px rgba(184, 164, 201, 0.616);
+  background-color: rgb(197, 197, 192);
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 20px;
   background-blend-mode: multiply, diference, lighten;
@@ -127,7 +127,7 @@ h2 {
 
 .skills-icon {
   font-size: 50px;
-  box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+ box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.3);
   border-radius: 12px;
 }
 
@@ -149,6 +149,7 @@ h2 {
 
 .photo {
   box-shadow: 10px 10px 20px rgba(167, 127, 217, 1.2);
+  filter: grayscale();
 }
 
 .logo {
@@ -196,7 +197,7 @@ nav li.active a {
 }
 
 .photo:hover {
-  filter: grayscale();
+  filter: none;
   cursor: pointer;
 }
 
@@ -288,10 +289,11 @@ a {
 
 img {
   border-radius: 12px;
+    filter: grayscale();
 }
 
 img:hover {
-  filter: grayscale();
+  filter: none;
   cursor: auto;
 }
 
