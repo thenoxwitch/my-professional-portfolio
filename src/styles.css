@@ -371,12 +371,26 @@ img:hover {
   }
 
   nav a {
-    font-size: 10px;
+    font-size: 8px;
     text-decoration: none;
     color: #39383d;
     font-weight: bold;
     transition: all 100ms ease-in-out;
   }
+
+  nav {
+ 
+  padding-top: 60px;
+  
+  font-size: 25px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 0px;
+
+}
   
   
 
