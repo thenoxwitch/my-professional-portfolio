@@ -13,6 +13,9 @@ body {
     
    
     rgb(146, 134, 128, 0.4);
+    background-image: url("https://images.unsplash.com/photo-1616410731303-6affae095a0a?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
    
   
   scroll-behavior: smooth;
@@ -21,7 +24,7 @@ body {
 
 h1 {
   color: rgb(175, 134, 151);
-  font-size: 35px;
+  font-size: 50px;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -38,15 +41,16 @@ h2 {
   color: var(--terciary-color);
 }
 
+
 .hero {
-  background: rgb(244, 241, 236);
+  background: rgb(244, 241, 236, 0.9);
   text-align: center;
   padding: 50px 2px;
 
-  max-width: 65%;
+  max-width:80%;
   margin: auto;
   display: block;
-  border-radius: 8px;
+  border-radius: 5px;
   mix-blend-mode: multiply, difference, lighten;
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
 }
@@ -88,13 +92,13 @@ h2 {
 
 .content-container {
   padding: 80px 20px;
-  background-color: rgb(244, 241, 236);
+  background-color: rgb(244, 241, 236, 0.6);
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
   text-align: center;
-  border-radius: 20px;
+  border-radius: 0px;
   background-blend-mode: multiply, diference, lighten;
   margin-bottom: 10px;
-  max-width: 65%;
+  max-width: 80%;
 }
 
 .content h3 {
@@ -138,7 +142,7 @@ h2 {
 .scroll {
   overflow: scroll;
 
-  height: 500px;
+  height: 800px;
   box-shadow: 5px 5px 10px rgba(89, 91, 92, 0.6);
   border-style: solid;
   border-width: 2px;
@@ -153,7 +157,9 @@ h2 {
 }
 
 .logo {
-  max-height: 85px;
+  max-height: 120px;
+  padding-bottom: 50px;
+  opacity: calc(0.5);
 }
 
 .cert-img {
@@ -169,7 +175,10 @@ h2 {
 
 
 nav {
-  padding: 20px, 12px;
+ 
+  padding-top: 60px;
+  
+  font-size: 25px;
 }
 
 nav li {
@@ -186,7 +195,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: rgb(175, 134, 151);
+  color: rgb(172, 116, 139);
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
@@ -204,11 +213,11 @@ nav li.active a {
 
 .atenas-img {
   filter: grayscale();
-  width: 100%;
+  width: 70%;
   box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
   position: relative;
   top: 45px;
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 .atenas-img:hover {
@@ -295,12 +304,12 @@ a {
 
 img {
   border-radius: 12px;
-    filter: grayscale();
+    filter:grayscale();
 }
 
 img:hover {
   filter: none;
-  cursor: auto;
+  cursor:pointer;
   transition: all ease-in-out 400ms;
 }
 
@@ -311,7 +320,7 @@ img:hover {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 56px;
   }
 
@@ -376,7 +385,7 @@ img:hover {
   }
 
   .logo {
-    max-height: 40px;
+    max-width: 65px;
   }
 
   .avatar {
