@@ -1,8 +1,8 @@
 :root {
   --branding-color: rgb(146, 134, 128);
   --secondary-color: #f1d4e5;
-  --terciary-color: #080202;
-  --background-color: #171614;
+  --terciary-color: rgb(40, 40, 40);
+  --background-color: rgb(40, 40, 40)
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -12,8 +12,7 @@ body {
   background: 
     
    
-    rgb(146, 134, 128, 0.4);
-    background-image: url("https://images.unsplash.com/photo-1616410731303-6affae095a0a?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    rgb(148, 128, 128, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -23,7 +22,7 @@ body {
 }
 
 h1 {
-  color: rgb(175, 134, 151);
+  color: rgb(175, 98, 89);
   font-size: 50px;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -43,7 +42,7 @@ h2 {
 
 
 .hero {
-  background: rgb(244, 241, 236, 0.9);
+  background: rgb(213, 211, 210, 0.9);
   text-align: center;
   padding: 50px 2px;
 
@@ -92,7 +91,7 @@ h2 {
 
 .content-container {
   padding: 80px 20px;
-  background-color: rgb(244, 241, 236, 0.6);
+background: rgb(213, 211, 210, 0.9);
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 0px;
@@ -123,6 +122,7 @@ h2 {
 .skills-text {
   font-family: var(--heading-font-family);
   font-size: large;
+  color: rgb(40, 40, 40, 0.6);
 }
 
 .content {
@@ -133,6 +133,7 @@ h2 {
   font-size: 50px;
  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+  color: rgb(40, 40, 40, 0.4);
 }
 
 .contact-button {
@@ -157,9 +158,10 @@ h2 {
 }
 
 .logo {
-  max-height: 120px;
-  padding-bottom: 50px;
-  opacity: calc(0.5);
+  width: 200px;
+display: block;  
+margin: auto;
+opacity: calc(0.5);
 }
 
 .cert-img {
@@ -176,8 +178,7 @@ h2 {
 
 nav {
  
-  padding-top: 60px;
-  
+padding: 30px;  
   font-size: 25px;
 }
 
@@ -195,7 +196,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: rgb(172, 116, 139);
+  color: rgb(175, 98, 89);
   font-weight: bold;
   transition: all 100ms ease-in-out;
 }
