@@ -180,6 +180,7 @@ nav {
  
 padding: 30px;  
   font-size: 25px;
+
 }
 
 nav li {
@@ -199,6 +200,22 @@ nav a {
   color: rgb(175, 98, 89);
   font-weight: bold;
   transition: all 100ms ease-in-out;
+}
+.nav-new {
+
+  background-color: #39383d;
+}
+
+
+.nav-link {
+color: rgb(175, 98, 89);
+font-weight:600;
+
+}
+
+.nav-link:hover {
+color: rgb(40, 40, 40, 0.4);
+
 }
 
 nav a:hover,
