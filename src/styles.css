@@ -417,7 +417,8 @@ nav li {
   }
 
   .logo {
-    max-width: 65px;
+    max-width: 120px;
+    
   }
 
   .avatar {
@@ -431,5 +432,11 @@ nav li {
   .footer-end {
     font-size: 12px;
     padding-top: 0;
+  }
+
+  .navbar-toggler {
+position: absolute;
+left: 250px;
+
   }
 }
